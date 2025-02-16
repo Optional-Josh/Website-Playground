@@ -3,3 +3,21 @@
   color: white;
   width: 150px;
 }
+
+.buttonContainer {
+  display: flex;
+}
+.buttonContainer button {
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+}
+.items {
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  border: 1px solid black;
+}
