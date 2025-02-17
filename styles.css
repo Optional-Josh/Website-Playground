@@ -34,12 +34,30 @@ dl dt {
 }
 
 /* Task Manager */
+.dropdown {
+  padding: 5px;
+}
+
+.addTaskBtn {
+  background-color: royalblue;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
 
 .taskContainer {
   text-align: center;
 }
 .tasks {
+  margin-top: 5px;
   padding-top: 5px;
-  color: red;
   font-style: italic;
+  border: 2px solid black;
+  display: flex;
+}
+
+.tasks p {
+  color: black;
+  border: 2px dashed black;
+  margin: 5px;
 }

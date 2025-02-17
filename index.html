@@ -27,13 +27,21 @@
     <div class="taskContainer">
         <h2>Task Manager</h2>
         <input type="text">
-        <button>Add Task</button>
-        <select>
+        <select class="dropdown">
           <option value="" selected hidden disabled>Status</option>
           <option value="pending">Pending</option>
           <option value="pending">Complete</option>
         </select>
-        <div class="tasks">--- Tasks ---</div>
+        <button class="addTaskBtn">Add Task</button>
+        <div class="tasks">
+          <p>--- Tasks ---</p>
+          <div>
+            <p>Status</p>
+          </div>
+          <div>
+            <p>Description</p>
+          </div>
+        </div>
     </div>
 
     <dl>
