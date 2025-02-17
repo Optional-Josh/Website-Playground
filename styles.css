@@ -21,3 +21,14 @@
   width: 200px;
   border: 1px solid black;
 }
+
+dl{
+  background-color: grey;
+  color: black;
+  text-align: center;
+}
+dl dt{
+  font-weight: bolder;
+  background-color: lightgrey;
+  padding-bottom: 10px;
+}

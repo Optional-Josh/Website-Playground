@@ -15,11 +15,20 @@ let expenseDiv = document.querySelector(".expenses");
 let incomeDiv = document.querySelector(".income");
 
 expenseBtn.addEventListener("click", addExpense);
+incomeBtn.addEventListener("click", addIncome);
 
 function addExpense() {
   let newDiv = document.createElement("div");
-  let newContent = document.createTextNode("Hi and this is an expense");
+  let newContent = document.createTextNode("Expense");
 
   newDiv.appendChild(newContent);
   expenseDiv.appendChild(newDiv);
+}
+
+function addIncome() {
+  let newDiv = document.createElement("div");
+  let newContent = document.createTextNode("Income");
+
+  newDiv.appendChild(newContent);
+  incomeDiv.appendChild(newDiv);
 }
