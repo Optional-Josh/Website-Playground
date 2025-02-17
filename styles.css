@@ -22,13 +22,24 @@
   border: 1px solid black;
 }
 
-dl{
+dl {
   background-color: grey;
   color: black;
   text-align: center;
 }
-dl dt{
+dl dt {
   font-weight: bolder;
   background-color: lightgrey;
   padding-bottom: 10px;
+}
+
+/* Task Manager */
+
+.taskContainer {
+  text-align: center;
+}
+.tasks {
+  padding-top: 5px;
+  color: red;
+  font-style: italic;
 }

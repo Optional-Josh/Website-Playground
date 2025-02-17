@@ -32,3 +32,5 @@ function addIncome() {
   newDiv.appendChild(newContent);
   incomeDiv.appendChild(newDiv);
 }
+
+// Task Manager
